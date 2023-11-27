@@ -26,12 +26,6 @@ src/
    ┗ modal/                                 # modal 구현을 위한 react-native-modalfy
 ```
 
-
-<h2 style="color: #23d9d0;">API 아쉬운점</h2>
-
-#### Desert -> Dessert
-#### options 에서 price 같이 optional 하게 주는것이아닌, value값을 empty(null)로 부여해줬으면 더 좋았을 것 같음
-
 ----
 
 <h4>박상민</h4>
