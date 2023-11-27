@@ -1,0 +1,14 @@
+{
+    "name": "@smp/app",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "build": "react-native build"
+    },
+    "dependencies": {
+        "react-native": "0.72.6",
+        "recoil": "0.7.7",
+        "rooks": "7.14.1",
+        "typescript": "5.2.2"
+    }
+}

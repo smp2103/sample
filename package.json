@@ -1,0 +1,17 @@
+{
+    "name": "smp",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "build:app": "cd packages/app && npm run build",
+        "build:web": "cd packages/web && npm run build",
+        "build:ui": "cd packages/ui && npm run build",
+        "storybook": "cd packages/ui && npm run storybook"
+    },
+    "devDependencies": {
+        "eslint": "8.53.0",
+        "prettier": "3.1.0"
+    }
+}

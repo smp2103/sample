@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+      "composite": true,
+      "declarationMap": true,
+      "noImplicitReturns": false,
+      "removeComments": true,
+      "target": "es6",
+      "experimentalDecorators": true,
+      "lib": ["esnext"],
+      "allowJs": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": false,
+      "forceConsistentCasingInFileNames": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "isolatedModules": true,
+      "resolveJsonModule": true,
+      "noEmit": true,
+      "jsx": "react-jsx",
+      "sourceMap": true,
+      "declaration": true,
+      "incremental": true
+    },
+    "exclude": ["node_modules"],
+    "include": ["src", ".storybook/**/*.tsx",".storybook/**/*.ts"]
+  }
+  
